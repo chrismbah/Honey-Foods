@@ -308,7 +308,7 @@ header.sticky{
     padding: 35px;
     border-radius: 3rem;
     background: var(--other-color);
-    min-height: 300px;
+    min-height: 280px;
     transition: all .5s ease;
 }
 .box:hover{
@@ -486,8 +486,8 @@ header.sticky{
         margin: 1rem;
         border-left: 2px solid var(--main-color);
     }
-    .navlist .open{
-        top: 100%;
+    .navlist.open{
+        top:100%
     }
 }
 @media (max-width:1045px) {
@@ -545,5 +545,18 @@ header.sticky{
     }
     .details{
         gap: 1.5rem;
+    }
+}
+@media (max-width:475px) {
+    :root{
+        --bg-font:2.8rem;
+        --h2-font:1.8rem;
+    }
+}
+
+@media (max-width:475px) {
+    .home{
+        height: 110vh;
+        gap: .1rem;
     }
 }
