@@ -462,8 +462,7 @@ header.sticky{
         --h2-font:2.2rem;
         --p-font:15px;
     }
-    .home{ /*height 85vh*/
-    }
+   
 }
 @media(max-width:1060px){
     #menu-icon{
